@@ -20,7 +20,6 @@ function showAboutMe() {
     // document.getElementById("Home").style.display = "none"
     document.getElementById("Projects").style.display = "none"
     document.getElementById("Contact").style.display = "none"
-    document.getElementById("GuestBook").style.display = "none"
 
     document.getElementById("AboutMeTab").style.color = "#e4add6"
     // document.getElementById("HomeTab").style.color = "black"
@@ -30,13 +29,12 @@ function showAboutMe() {
    
 }
 
-const showProjects = () => {
+function showProjects() {
 
     document.getElementById("Projects").style.display = "block"
     // document.getElementById("Home").style.display = "none"
     document.getElementById("AboutMe").style.display = "none"
     document.getElementById("Contact").style.display = "none"
-    document.getElementById("GuestBook").style.display = "none"
 
     document.getElementById("ProjectsTab").style.color = "#e4add6"
     // document.getElementById("HomeTab").style.color = "black"
@@ -50,7 +48,6 @@ function showContact() {
     // document.getElementById("Home").style.display = "none"
     document.getElementById("AboutMe").style.display = "none"
     document.getElementById("Projects").style.display = "none"
-    document.getElementById("GuestBook").style.display = "none"
 
     document.getElementById("ContactTab").style.color = "#e4add6"
     document.getElementById("AboutMeTab").style.color = "black"
