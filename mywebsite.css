@@ -96,8 +96,8 @@ li {
 
 .contents-ribbon td{
     font-weight: 800;
-    font-size: 3vw;
-    font-family: 'Nixie One', cursive;
+    font-size: 2.8vw;
+    font-family: 'Bungee Inline', cursive;
     cursor: url('pointercursor.png'), pointer;
 }
 
@@ -126,6 +126,19 @@ li {
     text-align: center;
 
 }
+.highlightPictures {
+    max-width: 100%;
+    height: auto;
+}
+
+.zoomIn{
+    transition: transform .2s; /* Make it zoom */
+}
+
+.zoomIn:hover {
+  transform: scale(1.3); 
+}
+
 
 #AboutMe h1{
     font-family: 'Bungee Shade', cursive;
@@ -190,19 +203,11 @@ a {
     color: #e4add6;
 }
 
-#Projects h1{
-    font-family: 'Londrina Sketch', cursive;
-    color:  #e4add6;
-    background-color: black;
+#Project-Banner{
+    max-width: 100%;
+    height: auto;
     text-align: center;
-    font-size: 80px;
     
-}
-
-#checkoutmyprojects{
-    font-weight: 550;
-    margin-top: -3%;
-    text-align: center;
 }
 
 #Projects h2{
@@ -217,9 +222,11 @@ a {
 }
 
 #Contact h1{
-    font-family: 'Londrina Outline', cursive;;
+    font-family: 'Bungee Inline', cursive;
+    color:#e4add6;
     font-size: 80px;
     text-align: center;
+    margin-top: -1%;
     
 }
 
