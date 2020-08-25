@@ -1,0 +1,230 @@
+body {
+  cursor: url('cursor.png'), auto; 
+  /* http://pixelartmaker.com/art/a08bb01bdcd3911 */
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Nixie One', cursive;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Nixie One', cursive;
+}
+
+#Title{
+    font-size:6vw;
+    /* font-family: 'Monofett', cursive; */
+    /* font-family: 'Londrina Sketch', cursive; */
+    /* font-family: 'Fascinate Inline', cursive; */
+    /* font-family: 'Bungee Shade', cursive; */
+    /* font-family: 'Petit Formal Script', cursive; */
+    font-family: 'Codystar', cursive;
+    /* font-family: 'Londrina Outline', cursive; */
+    color: black;
+
+
+}
+
+.banner{
+    background-image: url("mybanner.jfif");
+    box-shadow: 0 0 10px 10px white inset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    opacity: 80%;
+    position: relative;
+}
+
+
+.banner img{
+    width: 100%;
+    height: 60%;
+    
+}
+
+.copywrite-banner{
+    width: 100%;
+    position: relative;
+    opacity: 50%;
+    
+}
+
+.copywrite-banner p{
+    text-align: right;
+    font-size: 1.2vw;
+}
+
+.banner-title {
+    width: 100%;
+    position: relative;
+    
+
+}
+
+.banner-title h1 {
+    text-align: center;
+    
+}
+
+.banner-words {
+    width: 100%;
+    position: relative;
+    margin-top: -2.5%;
+
+}
+
+.banner-words p {
+    font-family: 'Nixie One', cursive;
+    font-size: 2vw;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+
+
+}
+
+.contents-ribbon {
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.contents-ribbon td{
+    font-weight: 800;
+    font-size: 3vw;
+    font-family: 'Fascinate Inline', cursive;
+    cursor: url('pointercursor.png'), pointer;
+}
+
+.features h1{
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+.featuredPictures{
+    max-width: 100%;
+    height: auto;
+}
+
+.contacts{
+    width: 100%;
+    text-align: center;
+}
+.contactPictures{
+    max-width: 100%;
+    height: auto;
+}
+
+.Highlights{
+    width: 100%;
+    text-align: center;
+
+}
+
+#AboutMe h1{
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    font-size: 60px;
+}
+
+#AboutMe h2{
+    font-family: 'Nixie One', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+#AboutMe p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nixie One', cursive;
+    font-weight: 550;
+}
+
+.Funky-word-box{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+    /* background-color: ; */
+    color: #e4add6;
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+    /* border: 3px solid ; */
+    display: -webkit-inline-box;
+    margin: 0em; }
+
+.Funky-word-box2{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 20px;
+    /* background-color: ; */
+    color: #16a2a7;
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+    /* border: 3px solid ; */
+    display: -webkit-inline-box;
+    margin: 0em; }
+
+#right-twist{
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+}
+
+#left-twist{
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+}
+
+a {
+    text-decoration: none;
+    color: #16a2a7;
+    cursor: url('pointercursor.png'), pointer;
+
+}
+
+#right-place-for-me{
+    color: #e4add6;
+}
+
+#Projects h1{
+    font-family: 'Londrina Sketch', cursive;
+    color:  #e4add6;
+    background-color: black;
+    text-align: center;
+    font-size: 100px;
+    margin-top: -1%;
+}
+
+#checkoutmyprojects{
+    font-weight: 550;
+    margin-top: -3%;
+    text-align: center;
+}
+
+#Projects h2{
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 60px;
+}
+
+
+#please {
+    font-size: 10px;
+    
+}
+
+#Contact h1{
+    font-family: 'Londrina Outline', cursive;;
+    font-size: 80px;
+    text-align: center;
+    
+}
+
+#Contact p{
+    text-align: center;
+    font-weight: 550;
+}
+
+
+
