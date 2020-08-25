@@ -23,18 +23,19 @@ li {
     font-family: 'Codystar', cursive;
     /* font-family: 'Londrina Outline', cursive; */
     color: black;
+    margin-top: -0.5%;
 
 
 }
 
 .banner{
-    background-image: url("mybanner.jfif");
-    box-shadow: 0 0 10px 10px white inset;
+    background-image: url("mybanner\ full.jfif");
+    /* box-shadow: 0 0 10px 10px white inset; */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 60%;
-    opacity: 80%;
+    /* height: 60%; */
+    opacity: 100%;
     position: relative;
 }
 
@@ -96,7 +97,7 @@ li {
 .contents-ribbon td{
     font-weight: 800;
     font-size: 3vw;
-    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Nixie One', cursive;
     cursor: url('pointercursor.png'), pointer;
 }
 
@@ -194,7 +195,7 @@ a {
     background-color: black;
     text-align: center;
     font-size: 100px;
-    margin-top: -1%;
+    
 }
 
 #checkoutmyprojects{
