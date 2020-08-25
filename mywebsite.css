@@ -182,6 +182,7 @@ a {
     text-decoration: none;
     color: #16a2a7;
     cursor: url('pointercursor.png'), pointer;
+    font-family: 'Nixie One', cursive;
 
 }
 
